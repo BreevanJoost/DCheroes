@@ -53,8 +53,6 @@
   float: left;
 }
 
-
-
 #nav-head {
   margin-left: 30px;
   color: #151613;
@@ -142,6 +140,8 @@
   font-size: 20px;
   font-family: rockwell;
   margin-left: 10px;
+  padding-left: 150px;
+  padding-right: 10px;
 }
 
 #main3 {
