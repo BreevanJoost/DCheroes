@@ -1,403 +1,129 @@
-#main-header {
-  background-color: blue;
-  background-image: url("../images/superhero-background.jpg");
-  background-size: cover;
-  padding: 30px;
-  text-decoration: none;
-  font-family: rockwell;
-  color: white;
-  height: 100px;
-  width: 1440px;
-  font-size: 20px;
-  margin: 0 auto;
-}
-
-#main-header a {
-  text-decoration: none;
-  font-family: rockwell;
-  color: white;
-  text-transform: uppercase;
-}
-
-#main-container {
-  background-color: red;
-  height: 555px;
-  width: 1500px;
-  margin: 0 auto;
-}
-
-#leftSide-logo {
-  float: left;
-}
-
-#rightSide-logo {
-  float: left;
-  margin-left: 5px;
-}
-
-#Naviagtion {
-  background-color: rgb(189, 189, 189);
-  width: 300px;
-  height: 555px;
-  float: left;
-  font-family: rockwell;
-}
-
-#Naviagtion a:hover{
-  color: Blue;
-}
-
-#teamImage img {
-  width: 50px;
-  height: 50px;
-  float: left;
-}
-
-#nav-head {
-  margin-left: 30px;
-  color: #151613;
-  font-family: Impact, fantasy;
-}
-
-#nav-options {
-  color: white;
-}
-
-#nav-options a {
-  color: #151613;
-  font-size: 15px;
-}
-
-#main2 {
-  background-color: white;
-  width: 400px;
-  height: 555px;
-  float: left;
-  overflow-y: scroll;
-}
-
-#superheroes {
-  color: white;
-  width: 370px;
-  height: 230px;
-  background-color: rgb(159, 158, 152);
-  margin: 0 auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#superheroes:nth-child(odd) {
-  background-image: url("../images/superhero-background.jpg");
+body {
+  background-color: rgb(0, 134, 171);
+  background-image: url("../images/background1.jpg");
   background-size: cover;
 }
 
-#superheroes:nth-child(even) {
-  background-image: url("../images/superhero-background2.png");
-  background-size: cover;
-}
-
-#superheroes2 {
-  width: 370px;
-  height: 230px;
-  background-color: blue;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-#superheroes3 {
-  width: 370px;
-  height: 230px;
-  background-color: blue;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-#heroImage img {
-  height: 230px;
-  width: 150px;
-  float: left;
-}
-
-#heroName {
-  font-size: 25px;
-  font-family: Impact, fantasy;
-  padding: 10px;
-  margin-left: 100px;
-}
-
-.more-info-btn {
-  padding: 0px 20px;
-  margin-top: 185px;
-  color: white;
-  font-size: 15px;
-  background-color: #598de0;
-  border-radius: 15px;
-  font-family: Comic Sans MS;
-  font-style: normal;
-}
-
-#heroImpression {
-  font-size: 20px;
-  font-family: rockwell;
-  margin-left: 10px;
-  padding-left: 150px;
-  padding-right: 10px;
-}
-
-#main3 {
-  background-color: rgb(189, 189, 189);
-  width: 800px;
-  height: 555px;
-  float: left;
-  overflow-y: scroll;
-}
-
-#heroBackground img {
-  width: 770px;
-  height: 255px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.noHeroSelected {
-  text-align: center;
-  font-size: 50px;
-  font-family: Impact, fantasy;
-  color: white;
-  position: relative;
-  top: -200px;
-}
-
-.noHeroSelectedDescription {
-  text-align: center;
-  font-size: 30px;
-  font-family: rockwell;
-  color: Black;
-  position: relative;
-}
-
-#Special-hero {
-  width: 750px;
-  height: 750px;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-.img-circle {
-    border-radius: 50%;
-}
-
-#ProfileBackground {
-}
-
-#Special-heroName {
-  color: white;
+#nameContainer {
   font-size: 40px;
-  font-family: Impact, fantasy;
-  top: -160px;
+  color: white;
+  font-family: HP Simplified;
   margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+#nameContainer h1 {
+  margin: 0px;
+  margin-top: -20px;
+}
+
+#footer {
+  background-color: rgb(127, 140, 149);
   text-align: center;
-  position: relative;
+  vertical-align: middle;
+  margin: 0 auto;
+  height: 50px;
+  width: 1000px;
+  margin-top: 5px;
+  border-radius: 1em;
+  color: white;
+  font-family: HP Simplified;
+  font-size: 24px;
 }
 
-#Special-heroImage img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  position: relative;
-  left: 290px;
-  top: -150px;
-  margin: 10px;
-
+#mainContainer {
+  margin: 0 auto;
+  font-family: calibri;
+  background-color: rgb(0, 134, 171);
+  color: white;
+  width: 1200px;
+  font-size: 30px;
 }
 
-#Special-Head-Description h2 {
-  color: #151613;
-  font-family: Impact, fantasy;
-  top: -140px;
-  margin-left: 10px;
+#mainContainer label {
+  width: 200px;
+  display: inline-block;
 }
 
-#Special-heroDescription {
-  font-size: 18px;
-  top: -145px;
-  margin-left: 10px;
-  font-family: rockwell;
-}
-
-#Special-Powers h2 {
-  color: #151613;
-  font-family: Impact, fantasy;
-  top: -140px;
-  margin-left: 10px;
-}
-
-#big-block {
-  position: relative;
-  top: -150px;
-}
-
-#Special-heroPower {
-  font-size: 18px;
-  top: -145px;
-  margin-left: 10px;
-  font-family: rockwell;
-}
-
-#test h2 {
-  color: #151613;
-  font-family: Impact, fantasy;
-  top: -140px;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-#test h5 {
-  margin-left: 10px;
-
-}
-
-#myMessage {
-  margin-left: 10px;
-}
-
-/* Ratings widget */
-@font-face
-{
-    font-family: 'anudawitalic';
-    src: url('../fonts/anudi-webfont.woff2') format('woff2'),
-         url('../fonts/anudi-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face
-{
-    font-family: 'anudawregular';
-    src: url('../fonts/anudrg-webfont.woff2') format('woff2'),
-         url('../fonts/anudrg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-.divMessage {
-  clear: both;
-}
-
-form.frmRate
-{
-	margin: 10px auto;
-}
-
-.rate {
+#formContainer {
   float: left;
-  color: #151613;
-  font-family: Impact, fantasy;
-  top: -140px;
-  margin-left: 10px;
+  background-color: rgb(0, 134, 171);
+  color: white;
+  height: 575px;
+  width: 580px;
+  padding-left: 20px;
 }
 
-#comments {
+#formContainer h2 {
+  margin: 5px;
+  margin-left: -10px;
+}
+
+#commentsContainer {
+  float: left;
+  background-color: rgb(0, 134, 171);
+  color: white;
+  height: 575px;
+  width: 600px;
+}
+
+#commentsContainer h2 {
+  margin: 5px;
+  margin-left: 0px;
+}
+
+#commentAtributesContainer {
+  overflow-y: scroll;
+  height: 509px;
+}
+
+#formAtributesContainer {
+  overflow-y: scroll;
+  height: 509px;
+}
+
+#comments	{
+  width: 280px;
   font-size: 20px;
-  top: -145px;
-  margin-left: 10px;
-  font-family: Impact, fantasy;
-  width: 700px;
 }
 
-#comments1 {
-  font-size: 18px;
-  top: -145px;
-  margin-left: 10px;
-  font-family: rockwell;
+.g-recaptcha {
+  margin-left: 205px;
 }
 
-#textarea {
-  width: 500px;
-  height: 200px;
+#formTable {
+  color: white;
+  font-family: calibri;
 }
 
-.myMessage {
-  margin-left: 10px;
+textarea {
+  resize: none;
 }
 
-/* Hide radio */
-.rate > input[type='radio']
-{
-    display: none;
+input[type=text] {
+  width: 330px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: calibri;
+  border: none;
 }
 
-/* Order correctly by floating highest to the right */
-.rate > label.lblRating
-{
-    float: right;
+input[type=email] {
+  width: 330px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: calibri;
+  border: none;
 }
 
-/* The star of the show */
-.rate > label.lblRating:before
-{
-    display: inline-block;
-    font-size: 60px;
-    padding: 5px;
-    margin: 0;
-    cursor: pointer;
-    font-family: FontAwesome;
-    content: "\f005 "; /* full star */
+textarea[type=message] {
+  width: 330px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: calibri;
+  border: none;
 }
-
-/* Zero stars rating */
-.rate > label.lblRating:last-child:before
-{
-    content: "\f006 "; /* empty star outline */
-}
-
-/* Half star trick */
-.rate label.half:before
-{
-    content: "\f089 "; /* half star no outline */
-    position: absolute;
-    padding-right: 0;
-}
-
-/* Click + hover color */
-input:checked ~ label.lblRating,
-label.lblRating:hover, label.lblRating:hover ~ label
-{
-	color: #ffd900;
-}
-
-/* Hover highlights */
-input:checked + label.lblRating:hover, input:checked ~ label.lblRating:hover, /* highlight current and previous stars */
-input:checked ~ label.lblRating:hover ~ label.lblRating, /* highlight previous selected stars for new rating */
-label.lblRating:hover ~ input:checked ~ label.lblRating /* highlight previous selected stars */
-{
-	color: #f0cc00;
-}
-
-.divSubmit
-{
-	display: block;
-	width: 250px;
-	height: 100%;
-  margin-left: 10px;
-}
-
-.divSubmit > input[type='submit']
-{
-	width: 180px;
-	height: 60px;
-	font-family: anudawregular;
-	font-size: 20px;
-	border: 1px solid #000;
-}
-
-.divSubmit > input[type='submit']:hover
-{
-	background-color: #f0cc00;
-	color: #000000;
-	cursor: pointer;
-	border: 1px solid #000;
-}
-a {text-decoration: none;}
