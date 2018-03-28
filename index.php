@@ -3,10 +3,6 @@
 <?php
 
     if(isset($_POST['submitRating'])) {
-
-
-
-
       $insertSQL =
     "INSERT INTO
     guestbook
@@ -132,9 +128,13 @@
             </tr>
             <tr>
               <td colspan="2" style="text-align:center">
-                <div class="g-recaptcha" data-sitekey="6Ld1zUkUAAAAAEzx5goxbiqz4uuj0HvtaiLiwueO"></div>
-                <a><input type="submit" name="submitRating" value="Submit" ></a>
-                <a><input type="reset" name="resetInputs" value="Reset" onclick="alert()"></a>
+                <a><input class="buttons" type="submit" name="submitRating" value="Submit" onclick="myFunction()"></a>
+                <script>
+                  function myFunction() {
+                    alert("Thanks for your post!");
+                  }
+                </script>
+                <a><input class="buttons" type="reset" name="resetInputs" value="Reset"></a>
               </td>
             </tr>
           </table>
@@ -157,6 +157,12 @@
             					<td><i class="far fa-calendar" style="font-size:24px; color: #0282f9;"></i></td>
             					<td><div id= "comments"><?php echo $heroReview['ratingDate']; ?></div></td>
                       <td><div id= "comments"><?php echo $heroReview['firstName']; ?> <?php echo $heroReview['insertion']; ?> <?php echo $heroReview['lastName']; ?></div></td>
+            					<td><i class="far fa-clock" style="font-size:24px; color: #0282f9;"></i></td>
+            				</tr>
+                    <tr>
+            					<td><i class="far fa-calendar" style="font-size:24px; color: #0282f9;"></i></td>
+            					<td><div id= "comments"><?php echo $heroReview['messageTitle']; ?></div></td>
+                      <td><div id= "comments"><?php echo $heroReview['webAdress']; ?></div></td>
             					<td><i class="far fa-clock" style="font-size:24px; color: #0282f9;"></i></td>
             				</tr>
             				<tr><td colspan="4"><div id= "comments"><?php echo nl2br($heroReview['Message']); ?></div></td></tr>
