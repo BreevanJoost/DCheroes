@@ -47,6 +47,7 @@
       <meta charset="utf-8">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
       <script src='https://www.google.com/recaptcha/api.js'></script>
       <meta charset="utf-8">
       <meta name="description" content="Guestbook Joost van Bree">
